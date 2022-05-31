@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apps1">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Book Library"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Full">
+        <activity
+            android:name=".Ubdate_Book"
+            android:exported="true"
+            android:label="Update Book"
+
+            android:theme="@style/Theme.Apps1"/>
+        <activity
+            android:name=".Book_List"
+            android:exported="true"
+            android:label="Books"
+            android:parentActivityName=".Libary"
+            android:theme="@style/Theme.Apps1" />
+        <activity
+            android:name=".Creat_Category"
+            android:exported="true"
+            android:label="Create Caterogy"
+            android:parentActivityName=".Library_Books"
+            android:theme="@style/Theme.Apps1" />
+        <activity
+            android:name=".Create_Book"
+            android:exported="true"
+            android:label="Create Book"
+            android:parentActivityName=".Library_Books"
+            android:theme="@style/Theme.Apps1" />
+        <activity
+            android:name=".Libary"
+            android:exported="true"
+            android:label="Library"
+            android:parentActivityName=".Library_Books"
+            android:theme="@style/Theme.Apps1" />
+        <activity
+            android:name=".Favorites"
+            android:exported="true"
+            android:label="Favorites"
+            android:parentActivityName=".Library_Books"
+            android:theme="@style/Theme.Apps1" />
+        <activity
+            android:name=".Library_Books"
+            android:exported="true"
+            android:theme="@style/Theme.Apps1" />
+        <activity
+            android:name=".activityStart"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

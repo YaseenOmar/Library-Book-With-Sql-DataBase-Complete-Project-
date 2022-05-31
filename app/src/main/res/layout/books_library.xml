@@ -1,0 +1,100 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/ic_launcher_background"
+    >
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/But1"
+                android:layout_marginStart="4dp"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:drawableTop="@drawable/ic_baseline_favorite_24"
+                android:text="Favorites"
+                android:textAllCaps="false"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+
+                />
+
+
+            <Button
+
+                android:id="@+id/But2"
+                android:textAllCaps="false"
+                android:textStyle="bold|italic"
+                android:layout_marginStart="10dp"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:drawableTop="@drawable/ic_baseline_format_list_bulleted_24"
+                android:text="Libary"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+
+        <Button
+
+            android:id="@+id/But3"
+            android:layout_marginStart="4dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/cre"
+            android:text="Create Category"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/But4"
+            android:textAllCaps="false"
+            android:textStyle="bold|italic"
+            android:layout_marginStart="10dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/boo"
+            android:text="Create Book"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
